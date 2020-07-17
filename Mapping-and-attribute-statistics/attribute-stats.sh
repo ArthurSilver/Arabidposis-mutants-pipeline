@@ -1,4 +1,4 @@
-## temp of depth and coverage
+## idxstats
 
 find /path/mapping/ -name "*.bam" | sed 's/.bam$//' | xargs -n 1 -P 4 -I PREFIX \
 sh -c '
