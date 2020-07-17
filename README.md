@@ -1,2 +1,2 @@
-# Arabidposis-mutants-pipeline <br>
-## Mapping and attribute statistics <br>
+# Arabidposis-mutants-pipeline
+## Mapping and attribute statistics 
