@@ -7,7 +7,7 @@ echo "start processing $sample"
 
 mkdir /path/variants/HC/${sample}
        
-/home/wl/bin/java -jar /GenomeAnalysisTK.jar \
+java -jar /GenomeAnalysisTK.jar \
 -R TAIR10_chr_all.fasta \
 -T HaplotypeCaller --emitRefConfidence GVCF --variant_index_type LINEAR --variant_index_parameter 128000 \
 -o /path/variants/HC/$sample/${sample}.TAIR10.bwa.sort.dedup.realn.hc.gvcf \
