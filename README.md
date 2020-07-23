@@ -7,7 +7,7 @@ Shell script to align sequence file to TAIR10 reference <br>
 ### 3.attribute-stats.sh <br>
 Shell script to evaluate bam files' attributes like depth,coverage,etc <br>
 ## Detect-mutation
-### 1.callsnp.sh
+### 1.call-variants.sh
 Shell script to call mutation sites using GATK <br>
 ### 2.detect_mutation.sh
 Shell script to screen out candidate snv and indel(insertion and deletion) sites <br>
